@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UsoContatos {
-    static ArrayList<Contato> contatos = new ArrayList();
+    static ArrayList<Contato> contatos = new ArrayList<Contato>();
     
     public static void main(String[] args) {
         
@@ -101,7 +101,7 @@ public class UsoContatos {
                     break;
                 case 7:
                     int indice = entrada.nextInt();
-                    contatos.get(indice).imprimirContato();
+                    contatos.get(indice-1).imprimirContato();
                     break;
             }
         }
