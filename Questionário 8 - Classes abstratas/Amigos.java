@@ -21,10 +21,10 @@ public class Amigos extends Contato {
         System.out.println(imprimirBasico());
         switch (grau) {
             case 1:
-                System.out.println("Grau: Amigo");
+                System.out.println("Grau: Melhor amigo");
                 break;
             case 2:
-                System.out.println("Grau: Melhor amigo");
+                System.out.println("Grau: Amigo");
                 break;
             case 3:
                 System.out.println("Grau: Conhecido");
